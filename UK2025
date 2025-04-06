@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Study in the UK - GES Overseas Education</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #002147;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    .cta {
+      background-color: #e63946;
+      color: white;
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .lead-form {
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    }
+    .lead-form label {
+      display: block;
+      margin-top: 1rem;
+    }
+    .lead-form input, .lead-form select {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    .lead-form button {
+      margin-top: 1.5rem;
+      background-color: #002147;
+      color: white;
+      padding: 0.75rem 2rem;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .university-logos img {
+      max-width: 100px;
+      margin: 1rem;
+    }
+    .faq, .testimonials {
+      background-color: #f1f1f1;
+      padding: 2rem;
+      border-radius: 8px;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Study in the UK – Sept 2025 Admissions Open!</h1>
+    <p>1-Year Master's Programs • 2-Year Post Study Work Visa • No Application Fee</p>
+    <a href="#lead-form" class="cta">Get Free Consultation</a>
+  </header>
+
+  <section>
+    <h2 class="section-title">Why Choose the UK?</h2>
+    <ul>
+      <li>🎓 1-year Master’s Programs</li>
+      <li>💼 2-Year Post Study Work Visa</li>
+      <li>💰 Scholarships up to £5,000</li>
+      <li>✅ No Application or Service Charges</li>
+      <li>📍 Cities: London, Birmingham, Coventry, Glasgow & more</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="section-title">About GES Overseas Education</h2>
+    <p>GES Overseas is a trusted education consultancy based in Ponnur, Guntur. We’ve helped over 1,000 students get admitted to top UK universities. Our expert team offers personalized support with application, SOP writing, visa guidance, and accommodation.</p>
+  </section>
+
+  <section class="lead-form" id="lead-form">
+    <h2 class="section-title">Get Your UK University Options</h2>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="phone">Phone Number (WhatsApp Preferred)</label>
+      <input type="text" id="phone" name="phone" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="city">City</label>
+      <input type="text" id="city" name="city" required />
+
+      <label for="course">Preferred Course</label>
+      <input type="text" id="course" name="course" required />
+
+      <label for="intake">Preferred Intake</label>
+      <select id="intake" name="intake">
+        <option value="Sept 2025">Sept 2025</option>
+        <option value="Jan 2026">Jan 2026</option>
+      </select>
+
+      <label for="education">Highest Qualification</label>
+      <input type="text" id="education" name="education" required />
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section>
+    <h2 class="section-title">Universities We Work With</h2>
+    <div class="university-logos">
+      <img src="https://upload.wikimedia.org/wikipedia/en/6/6e/Coventry_University_logo.svg" alt="Coventry University">
+      <img src="https://upload.wikimedia.org/wikipedia/en/b/bc/Ulster_University_Logo.svg" alt="Ulster University">
+      <img src="https://upload.wikimedia.org/wikipedia/en/f/f4/Glasgow_Caledonian_University_logo.svg" alt="GCU">
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2 class="section-title">Student Testimonials</h2>
+    <p>“GES helped me get admission to Coventry University with a £3,000 scholarship. The process was smooth and professional!” – <strong>Harika, Vizag</strong></p>
+    <p>“Thanks to GES, I’m now studying in the UK. Their guidance was 100% genuine and transparent.” – <strong>Vinay, Guntur</strong></p>
+  </section>
+
+  <section class="faq">
+    <h2 class="section-title">FAQs</h2>
+    <p><strong>Can I apply without IELTS?</strong> Yes, many universities accept MOI (Medium of Instruction) or Duolingo.</p>
+    <p><strong>Is the PSW visa guaranteed?</strong> Yes, UK offers 2-year PSW to all graduates.</p>
+    <p><strong>Can I apply with a study gap?</strong> Yes, we work with universities that accept up to 10 years gap.</p>
+  </section>
+
+</body>
+</html>
